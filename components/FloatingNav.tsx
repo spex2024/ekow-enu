@@ -42,7 +42,7 @@ export function FloatingNav({ darkMode, activeSection }: FloatingNavProps) {
                 }
                 transition-colors duration-200`}
               >
-                <item.icon className="w-4 h-4 sm:w-5 sm:h-5 hidden" />
+                <item.icon className="w-4 h-4 sm:w-5 sm:h-5" />
                 <span className="hidden sm:inline text-xs sm:text-sm font-medium">{item.label}</span>
               </div>
             </Link>

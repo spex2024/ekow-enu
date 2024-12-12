@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { Home, Briefcase, GraduationCap, Folder, Mail } from 'lucide-react'
+import { Home, Briefcase, GraduationCap, Folder, Mail ,Braces } from 'lucide-react'
 import Link from 'next/link'
 
 interface FloatingNavProps {
@@ -10,6 +10,7 @@ interface FloatingNavProps {
 export function FloatingNav({ darkMode, activeSection }: FloatingNavProps) {
   const navItems = [
     { icon: Home, href: '#hero', label: 'Home' },
+    { icon:  Braces, href: '#skills', label: 'Skills' },
     { icon: Briefcase, href: '#experience', label: 'Experience' },
     { icon: GraduationCap, href: '#education', label: 'Education' },
     { icon: Folder, href: '#projects', label: 'Projects' },

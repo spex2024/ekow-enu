@@ -339,6 +339,7 @@ const PortfolioPage = () => {
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.8, delay: 0.7 }}
                 >
+                  <Link href={`#projects`}>
                   <Button 
                     className={`
                       ${darkMode 
@@ -356,6 +357,7 @@ const PortfolioPage = () => {
                     <Folder className="w-5 h-5" />
                     Explore Projects
                   </Button>
+                  </Link>
                   <Button 
                     variant="outline" 
                     className={`

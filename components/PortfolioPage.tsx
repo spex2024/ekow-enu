@@ -763,7 +763,7 @@ const PortfolioPage = () => {
                         { icon: MapPin, text: "Oyarifa, Accra Ghana", href: "https://goo.gl/maps/Oyarifa" },
                         { icon: Mail, text: "enoch@ekowenu.site", href: "mailto:enoch@ekowenu.site" },
                         { icon: Phone, text: "+233 552977393 / 593344313", href: "tel:+233552977393" },
-                        { icon: ExternalLink, text: "ekowenu.site", href: "https://ekowenu.site" },
+                        { icon: ExternalLink, text: "ekowenu.site", href: "https://www.ekowenu.site" },
                       ].map((item, index) => (
                         <motion.li
                           key={item.text}

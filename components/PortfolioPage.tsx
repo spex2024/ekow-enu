@@ -74,7 +74,7 @@ const projects = [
     title: "The Jess Daniel",
     description: "Personal portfolio website for Jessica Daniels, featuring her professional work and services in an elegant, interactive presentation.",
     tags: ["React", "Next.js", "Tailwind CSS", "Framer Motion"],
-    link: "#",
+    link: "https://jessica-mu.vercel.app",
     github: "#",
     status: "In Progress"
   },

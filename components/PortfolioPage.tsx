@@ -4,7 +4,7 @@ import { useState, useEffect, useRef } from 'react'
 import Image from "next/image"
 import Link from "next/link"
 import { motion, useScroll,  useSpring, AnimatePresence } from 'framer-motion'
-import { Briefcase, Mail, MapPin, Phone, ExternalLink, Download, Github, Linkedin, Twitter, ChevronDown, Code, Globe,  ArrowRight,  Folder,  Moon, Sun, GraduationCap, Calendar, Clock, ChevronUp } from 'lucide-react'
+import { Briefcase, Mail, MapPin, Phone, ExternalLink, Download, Github, Linkedin,  ChevronDown, Code, Globe,  ArrowRight,  Folder,  Moon, Sun, GraduationCap, Calendar, Clock, ChevronUp } from 'lucide-react'
 import { TypeAnimation } from 'react-type-animation';
 
 import { Badge } from "@/components/ui/badge"
@@ -790,9 +790,8 @@ const PortfolioPage = () => {
                     <h3 className={`text-2xl font-semibold mb-6 ${darkMode ? 'text-[#F2EDE4]' : 'text-[#002538]'}`}>Connect with Me</h3>
                     <div className="grid grid-cols-2 gap-4">
                       {[
-                        { icon: Github, href: "https://github.com/enochenu", label: "GitHub" },
-                        { icon: Linkedin, href: "https://linkedin.com/in/enochenu", label: "LinkedIn" },
-                        { icon: Twitter, href: "https://twitter.com/enochenu", label: "Twitter" },
+                        { icon: Github, href: "https://github.com/ekow1", label: "GitHub" },
+                        { icon: Linkedin, href: "https://www.linkedin.com/in/enoch-enu-459929184", label: "LinkedIn" },
                         { icon: Mail, href: "mailto:enoch@ekowenu.site", label: "Email" },
                       ].map((item, index) => (
                         <motion.a
